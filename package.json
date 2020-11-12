@@ -2,6 +2,7 @@
   "name": "pixelslices",
   "version": "1.0.0",
   "private": true,
+  "author": "samuel@samuelhorn.com",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
