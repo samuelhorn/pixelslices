@@ -1,13 +1,14 @@
+![Pixelslices logotype](https://github.com/samuelhorn/pixelslices/blob/master/static/icon.png =256x)
+
 # Pixelslices
 
 A neat slice library for [Slicemachine](https://www.slicemachine.dev/) by [Prismic](https://prismic.io/).
 
-
 ## Storybook & Demo
+
 [Storybook](https://pxlsls-story.samuelhorn.com) [![Netlify Status](https://api.netlify.com/api/v1/badges/f6ce1400-93dc-4cea-9793-fd275b4cda00/deploy-status)](https://app.netlify.com/sites/pxlsls-story/deploys)
 
 [Demo](https://pxlsls-demo.samuelhorn.com) [![Netlify Status](https://api.netlify.com/api/v1/badges/da3d6cf3-4571-4e26-9a24-fde92f63e86e/deploy-status)](https://app.netlify.com/sites/pxlsls-demo/deploys)
-
 
 ## Setup & development
 
@@ -36,7 +37,6 @@ $ yarn generate
 # Generate static Storybook site
 $ yarn build-storybook
 ```
-
 
 ## Read more
 
