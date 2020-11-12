@@ -23,7 +23,7 @@ export default {
   },
   computed: {
     tag() {
-      return this.link ? 'a' : 'button'
+      return this.link ? 'prismic-link' : 'button'
     },
   },
 }

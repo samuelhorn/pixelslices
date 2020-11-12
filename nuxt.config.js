@@ -71,11 +71,7 @@ export default {
    ** See https://nuxtjs.org/api/configuration-components
    */
   components: {
-    dirs: [
-      '~/components',
-      '~/pixelslices/components',
-      '~/pixelslices/partials',
-    ],
+    dirs: ['~/components', '~/pixelslices/components'],
   },
 
   /*
