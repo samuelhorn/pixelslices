@@ -1,6 +1,7 @@
-<img src="https://github.com/samuelhorn/pixelslices/blob/master/static/icon.png?raw=true" alt="Pixelslices logotype" width="256" style="display:block;margin:0 auto 2rem;" />
-
-# Pixelslices
+<div style="display:flex;align-items:center;">
+  <img src="https://github.com/samuelhorn/pixelslices/blob/master/static/icon.png?raw=true" alt="Pixelslices logotype" width="512" height="512" style="display:block;margin:0 auto 2rem;width:64px;height:64px;" />
+  <h1>Pixelslices</h1>
+</div>
 
 A neat slice library for [Slicemachine](https://www.slicemachine.dev/) by [Prismic](https://prismic.io/).
 
