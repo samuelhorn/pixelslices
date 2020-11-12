@@ -1,4 +1,4 @@
-![Pixelslices logotype](https://github.com/samuelhorn/pixelslices/blob/master/static/icon.png?raw=true)
+<img src="https://github.com/samuelhorn/pixelslices/blob/master/static/icon.png?raw=true" alt="Pixelslices logotype" width="256" style="display:block;margin:0 auto 2rem;" />
 
 # Pixelslices
 
