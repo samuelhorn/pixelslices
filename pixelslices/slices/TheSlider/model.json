@@ -1,0 +1,80 @@
+{
+  "id": "the_slider",
+  "type": "SharedSlice",
+  "name": "TheSlider",
+  "description": "TheSlider",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8897",
+      "description": "TheSlider",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          },
+          "type": "StructuredText"
+        },
+        "navigation": {
+          "config": {
+            "label": "Show navigation?",
+            "placeholder": "",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": true
+          },
+          "type": "Boolean"
+        },
+        "branding": {
+          "config": {
+            "label": "Branding",
+            "placeholder": "",
+            "default_value": "primary",
+            "options": [
+              "primary",
+              "secondary"
+            ]
+          },
+          "type": "Select"
+        },
+        "background": {
+          "config": {
+            "label": "Background",
+            "placeholder": "",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": true
+          },
+          "type": "Boolean"
+        }
+      },
+      "items": {
+        "title": {
+          "config": {
+            "label": "",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading3"
+          },
+          "type": "StructuredText"
+        },
+        "image": {
+          "config": {
+            "label": "",
+            "constraint": {
+              "width": 600,
+              "height": 400
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "prismic-preview",
+    "path": "/preview",
+    "component": "/Users/samuelhorn/dev/pixelslices/.nuxt-storybook/prismic/pages/preview.vue",
+    "_name": "_571c3c03"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/samuelhorn/dev/pixelslices/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_778f47e4"
+  },
+  {
+    "name": "uid",
+    "path": "/:uid",
+    "component": "/Users/samuelhorn/dev/pixelslices/pages/_uid.vue",
+    "chunkName": "pages/_uid",
+    "_name": "_767b10f6"
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "libraries": ["@/pixelslices/slices"],
+  "apiEndpoint": "https://pixelslices.cdn.prismic.io/api/v2",
+  "storybook": "http://localhost:3003"
+}

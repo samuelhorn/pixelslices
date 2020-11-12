@@ -1,0 +1,29 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --color-primary: #20c9ea;
+  --color-secondary: #ffb64b;
+  --color-theme: #ffffff;
+  --color-theme-alt: #f9f9f9;
+  --color-theme-alt-2: #f3f3f3;
+  --color-theme-alt-3: #e5e5e5;
+  --color-theme-op: rgba(255, 255, 255, 0.8);
+  --color-text: #1e2226;
+}
+
+.dark-mode {
+  --color-primary: #20c9ea;
+  --color-secondary: #ffb64b;
+  --color-theme: #2c3136;
+  --color-theme-alt: #1e2226;
+  --color-theme-alt-2: #161a1e;
+  --color-theme-alt-3: #101417;
+  --color-theme-op: rgba(44, 49, 54, 0.8);
+  --color-text: #ffffff;
+}
+
+body {
+  @apply bg-theme font-copy;
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "TheImage",
+    "primary": {
+      "image": {
+        "dimensions": { "width": 2000, "height": 1400 },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.prismic.io/important-sm-images/0e692ba3-b5e5-4c5b-a025-bf61d155847f_lqGMN0NRiIo.jpg?w=2000&h=1400"
+      },
+      "caption": [
+        {
+          "type": "paragraph",
+          "text": "cultivate 24/7 web services",
+          "spans": []
+        }
+      ],
+      "align": "left"
+    },
+    "items": [],
+    "slice_type": "the_image"
+  }
+]

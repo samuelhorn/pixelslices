@@ -1,0 +1,31 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8677",
+    "description": "TheHero",
+    "primary": {
+      "preTitle": "Pixelslices for Prismic",
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Pizza alone is not that nice, so how about we share a slice?",
+          "spans": []
+        }
+      ],
+      "ctaLink": { "link_type": "Web", "url": "https://slicemachine.dev" },
+      "ctaText": "I'm hungry!",
+      "branding": "primary",
+      "image": {
+        "dimensions": { "width": 2000, "height": 1400 },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://source.unsplash.com/bsZ-dG3ZMMo/2000x1400"
+      },
+      "alignment": "left"
+    },
+    "items": [],
+    "slice_type": "the_hero"
+  }
+]

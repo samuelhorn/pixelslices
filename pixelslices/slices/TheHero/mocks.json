@@ -1,0 +1,31 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8677",
+    "description": "TheHero",
+    "primary": {
+      "preTitle": "A text of type \"Pre title\" that conveys A small label above the title",
+      "title": [
+        {
+          "type": "heading1",
+          "text": "maximize seamless technologies",
+          "spans": []
+        }
+      ],
+      "ctaLink": { "link_type": "Web", "url": "https://slicemachine.dev" },
+      "ctaText": "A text of type \"CTA text\" that conveys Click me",
+      "branding": "secondary",
+      "image": {
+        "dimensions": { "width": 2000, "height": 1400 },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.prismic.io/important-sm-images/4b7f2693-f585-4740-9980-3656c4c72dec_JXow53j6AtE.jpg?w=2000&h=1400"
+      },
+      "alignment": "left"
+    },
+    "items": [],
+    "slice_type": "the_hero"
+  }
+]

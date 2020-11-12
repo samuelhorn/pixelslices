@@ -1,0 +1,99 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8897",
+    "description": "TheSlider",
+    "primary": {
+      "title": [
+        {
+          "type": "heading2",
+          "text": "Browse the menu",
+          "spans": []
+        }
+      ],
+      "navigation": true,
+      "branding": "primary",
+      "background": true
+    },
+    "items": [
+      {
+        "title": [
+          {
+            "type": "heading3",
+            "text": "The Hero",
+            "spans": []
+          }
+        ],
+        "image": {
+          "dimensions": { "width": 600, "height": 400 },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://source.unsplash.com/qJDkJRTedNw/600x400"
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "heading3",
+            "text": "The Slider",
+            "spans": []
+          }
+        ],
+        "image": {
+          "dimensions": { "width": 600, "height": 400 },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://source.unsplash.com/Q81AduLKMMc/600x400"
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "heading3",
+            "text": "The Image",
+            "spans": []
+          }
+        ],
+        "image": {
+          "dimensions": { "width": 600, "height": 400 },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://source.unsplash.com/ihDcta7Kvqg/600x400"
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "heading3",
+            "text": "The Text",
+            "spans": []
+          }
+        ],
+        "image": {
+          "dimensions": { "width": 600, "height": 400 },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://source.unsplash.com/zj475haUy2M/600x400"
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "heading3",
+            "text": "The Pages",
+            "spans": []
+          }
+        ],
+        "image": {
+          "dimensions": { "width": 600, "height": 400 },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://source.unsplash.com/6hVbn-iMrdA/600x400"
+        }
+      }
+    ],
+    "slice_type": "the_slider"
+  }
+]

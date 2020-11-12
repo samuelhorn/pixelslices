@@ -1,0 +1,40 @@
+{
+  "Header": {
+    "logo_text": {
+      "type": "Text",
+      "config": {
+        "label": "Logo text",
+        "placeholder": ""
+      }
+    },
+    "logo_image": {
+      "type": "Image",
+      "config": {
+        "label": "Logo",
+        "constraint": {},
+        "thumbnails": []
+      }
+    },
+    "header_navigation": {
+      "type": "Group",
+      "config": {
+        "label": "Navigation",
+        "fields": {
+          "link": {
+            "type": "Link",
+            "config": {
+              "label": "Link",
+              "allowTargetBlank": true
+            }
+          },
+          "name": {
+            "type": "Text",
+            "config": {
+              "label": "Name"
+            }
+          }
+        }
+      }
+    }
+  }
+}

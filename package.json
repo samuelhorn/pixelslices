@@ -1,0 +1,47 @@
+{
+  "name": "pixelslices",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "yarn lint:js",
+    "slicemachine": "start-slicemachine --port 9999",
+    "storybook": "nuxt storybook",
+    "build-storybook": "nuxt storybook build"
+  },
+  "dependencies": {
+    "@nuxtjs/google-fonts": "^1.1.3",
+    "@nuxtjs/prismic": "^1.2.4",
+    "@prismicio/vue": "^2.0.7",
+    "headroom.js": "^0.12.0",
+    "nuxt": "^2.14.0",
+    "nuxt-sm": "^0.0.6",
+    "prismic-javascript": "^3.0.2",
+    "swiper": "5.4.5",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-essential-slices": "^0.2.0",
+    "vue-slicezone": "^0.0.28"
+  },
+  "devDependencies": {
+    "@nuxtjs/color-mode": "^2.0.0",
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/storybook": "2.2.2",
+    "@nuxtjs/svg": "^0.1.12",
+    "@nuxtjs/tailwindcss": "^2.1.0",
+    "@storybook/addon-knobs": "^6.0.28",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "node-sass": "^4.14.1",
+    "prettier": "^2.0.5",
+    "sass-loader": "^10.0.4",
+    "slice-machine-ui": "^0.0.38"
+  }
+}

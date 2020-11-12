@@ -1,0 +1,84 @@
+{
+  "id": "the_hero",
+  "type": "SharedSlice",
+  "name": "TheHero",
+  "description": "TheHero",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8677",
+      "description": "TheHero",
+      "primary": {
+        "preTitle": {
+          "config": {
+            "label": "Pre title",
+            "placeholder": "A small label above the title"
+          },
+          "type": "Text"
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "ctaLink": {
+          "config": {
+            "label": "CTA link",
+            "placeholder": "",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "ctaText": {
+          "config": {
+            "label": "CTA text",
+            "placeholder": "Click me"
+          },
+          "type": "Text"
+        },
+        "branding": {
+          "config": {
+            "label": "Branding",
+            "placeholder": "",
+            "default_value": "primary",
+            "options": [
+              "primary",
+              "secondary"
+            ]
+          },
+          "type": "Select"
+        },
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 2000,
+              "height": 1400
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "alignment": {
+          "config": {
+            "label": "Alignment",
+            "placeholder": "",
+            "default_value": "left",
+            "options": [
+              "left",
+              "center",
+              "right"
+            ]
+          },
+          "type": "Select"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

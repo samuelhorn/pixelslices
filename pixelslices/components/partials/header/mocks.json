@@ -1,0 +1,19 @@
+{
+  "logo_image": {
+    "dimensions": { "width": 420, "height": 256 },
+    "alt": null,
+    "copyright": null,
+    "url": "https://prismic-io.s3.amazonaws.com/pixelslices/e04f1d27-52f2-43cb-a58d-61a467376749_ps-logo.svg"
+  },
+  "logo_text": "Pixelslices",
+  "header_navigation": [
+    {
+      "link": {
+        "link_type": "Web",
+        "url": "https://google.com",
+        "target": "_blank"
+      },
+      "name": "Description"
+    }
+  ]
+}
