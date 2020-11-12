@@ -82,6 +82,7 @@ export default {
     '@nuxtjs/eslint-module', // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/svg',
+    '@nuxtjs/pwa',
   ],
 
   /*
@@ -123,4 +124,20 @@ export default {
   },
 
   ignore: ['**/*.stories.js'],
+
+  pwa: {
+    icon: {
+      source: './static/icon.png',
+    },
+    meta: {
+      mobileAppIOS: true,
+      appleStatusBarStyle: 'black-translucent',
+    },
+    manifest: {
+      name: 'Pixelslices',
+      short_name: 'Pxlsls',
+      theme_color: '#2c3136',
+      description: 'A neat slice library for Slicemachine by Prismic.',
+    },
+  },
 }
