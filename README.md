@@ -1,4 +1,4 @@
-![Pixelslices logotype](https://github.com/samuelhorn/pixelslices/blob/master/static/icon.png =256x)
+![Pixelslices logotype](https://github.com/samuelhorn/pixelslices/blob/master/static/icon.png?raw=true)
 
 # Pixelslices
 
