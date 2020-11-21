@@ -1,0 +1,80 @@
+{
+  "id": "the_form",
+  "type": "SharedSlice",
+  "name": "TheForm",
+  "description": "TheForm",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TheForm",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Description",
+            "placeholder": "A nice description of your product"
+          }
+        },
+        "name": {
+          "config": {
+            "label": "Name",
+            "placeholder": "The name of the form in Netlify"
+          },
+          "type": "Text"
+        },
+        "appearance": {
+          "config": {
+            "label": "Appearance",
+            "placeholder": "",
+            "options": ["theme", "primary", "secondary"]
+          },
+          "type": "Select"
+        }
+      },
+      "items": {
+        "label": {
+          "config": {
+            "label": "Label",
+            "placeholder": "A label above the field"
+          },
+          "type": "Text"
+        },
+        "name": {
+          "config": {
+            "label": "Name",
+            "placeholder": "The display name in Netlify"
+          },
+          "type": "Text"
+        },
+        "type": {
+          "config": {
+            "label": "Type",
+            "placeholder": "Select a type for this field",
+            "default_value": "",
+            "options": ["text", "email", "number", "url", "tel", "password"]
+          },
+          "type": "Select"
+        },
+        "placeholder": {
+          "config": {
+            "label": "Placeholder",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      }
+    }
+  ]
+}

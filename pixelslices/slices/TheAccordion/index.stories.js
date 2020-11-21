@@ -20,10 +20,12 @@ export const DefaultSlice = () => ({
       default: (() => {
         const _mock = cloneDeep(mocks[0])
 
-        _mock.primary.columns = select(
-          'Columns',
-          ['1', '2', '3'],
-          _mock.primary.columns
+        _mock.primary.appearance = 'theme'
+
+        _mock.primary.appearance = select(
+          'Appearance',
+          ['theme', 'primary', 'secondary'],
+          _mock.primary.appearance
         )
 
         return _mock
@@ -40,7 +42,7 @@ export const DefaultSlice = () => ({
   template: '<slice-zone :slices="[ mock ]" :resolver="resolver" />',
 })
 
-export const WithColumns = () => ({
+export const BrandedSlice = () => ({
   components: {
     Slice,
     SliceZone,
@@ -50,12 +52,12 @@ export const WithColumns = () => ({
       default: (() => {
         const _mock = cloneDeep(mocks[0])
 
-        _mock.primary.columns = '3'
+        _mock.primary.appearance = 'primary'
 
-        _mock.primary.columns = select(
-          'Columns',
-          ['1', '2', '3'],
-          _mock.primary.columns
+        _mock.primary.appearance = select(
+          'Appearance',
+          ['theme', 'primary', 'secondary'],
+          _mock.primary.appearance
         )
 
         return _mock
@@ -73,4 +75,4 @@ export const WithColumns = () => ({
 })
 
 DefaultSlice.storyName = 'Default'
-WithColumns.storyName = 'With columns'
+BrandedSlice.storyName = 'Primary branded'

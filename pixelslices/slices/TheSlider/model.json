@@ -34,8 +34,9 @@
           "config": {
             "label": "Branding",
             "placeholder": "",
-            "default_value": "primary",
+            "default_value": "theme",
             "options": [
+              "theme",
               "primary",
               "secondary"
             ]
@@ -51,13 +52,24 @@
             "default_value": true
           },
           "type": "Boolean"
+        },
+        "appearance": {
+          "config": {
+            "label": "Appearance",
+            "placeholder": "",
+            "options": [
+              "images",
+              "icons"
+            ]
+          },
+          "type": "Select"
         }
       },
       "items": {
         "title": {
           "config": {
-            "label": "",
-            "placeholder": "",
+            "label": "Title",
+            "placeholder": "A fancy card title",
             "allowTargetBlank": true,
             "single": "heading3"
           },
@@ -65,7 +77,7 @@
         },
         "image": {
           "config": {
-            "label": "",
+            "label": "Image",
             "constraint": {
               "width": 600,
               "height": 400
@@ -73,6 +85,14 @@
             "thumbnails": []
           },
           "type": "Image"
+        },
+        "link": {
+          "config": {
+            "label": "Link",
+            "placeholder": "Link your card",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
         }
       }
     }

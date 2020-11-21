@@ -26,43 +26,19 @@
             "placeholder": "This is where it all begins..."
           }
         },
-        "ctaLink": {
-          "config": {
-            "label": "CTA link",
-            "placeholder": "",
-            "allowTargetBlank": true
-          },
-          "type": "Link"
-        },
-        "ctaText": {
-          "config": {
-            "label": "CTA text",
-            "placeholder": "Click me"
-          },
-          "type": "Text"
-        },
         "branding": {
           "config": {
-            "label": "Branding",
+            "label": "Text color",
             "placeholder": "",
-            "default_value": "primary",
+            "default_value": "theme",
             "options": [
-              "primary",
-              "secondary"
+              "theme",
+              "brand primary",
+              "brand secondary",
+              "gradient"
             ]
           },
           "type": "Select"
-        },
-        "image": {
-          "config": {
-            "label": "Image",
-            "constraint": {
-              "width": 2000,
-              "height": 1400
-            },
-            "thumbnails": []
-          },
-          "type": "Image"
         },
         "alignment": {
           "config": {
@@ -78,7 +54,35 @@
           "type": "Select"
         }
       },
-      "items": {}
+      "items": {
+        "link": {
+          "config": {
+            "label": "CTA link",
+            "placeholder": "",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "buttonText": {
+          "config": {
+            "label": "CTA text",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "branding": {
+          "config": {
+            "label": "Button color",
+            "placeholder": "",
+            "default_value": "",
+            "options": [
+              "primary",
+              "secondary"
+            ]
+          },
+          "type": "Select"
+        }
+      }
     }
   ]
 }

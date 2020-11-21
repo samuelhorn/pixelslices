@@ -2,7 +2,8 @@ import { withKnobs, boolean, select } from '@storybook/addon-knobs'
 import cloneDeep from 'lodash/cloneDeep'
 import SliceZone from 'vue-slicezone'
 import model from './model'
-import mocks from './customMocks.json'
+import imageMocks from './imageMocks.json'
+import iconMocks from './iconMocks.json'
 import Slice from './'
 
 export default {
@@ -18,17 +19,15 @@ export const DefaultSlice = () => ({
   props: {
     mock: {
       default: (() => {
-        const _mock = cloneDeep(mocks[0])
+        const _mock = cloneDeep(imageMocks[0])
 
         _mock.primary.navigation = boolean('Navigation dots?', true)
 
         _mock.primary.branding = select(
           'Branding',
-          ['primary', 'secondary'],
+          ['theme', 'primary', 'secondary'],
           _mock.primary.branding
         )
-
-        _mock.primary.background = boolean('Background tint?', false)
 
         return _mock
       })(),
@@ -44,7 +43,7 @@ export const DefaultSlice = () => ({
   template: '<slice-zone :slices="[ mock ]" :resolver="resolver" />',
 })
 
-export const NoTitle = () => ({
+export const withIcons = () => ({
   components: {
     Slice,
     SliceZone,
@@ -52,15 +51,13 @@ export const NoTitle = () => ({
   props: {
     mock: {
       default: (() => {
-        const _mock = cloneDeep(mocks[0])
-
-        _mock.primary.title = []
+        const _mock = cloneDeep(iconMocks[0])
 
         _mock.primary.navigation = boolean('Navigation dots?', true)
 
         _mock.primary.branding = select(
           'Branding',
-          ['primary', 'secondary'],
+          ['theme', 'primary', 'secondary'],
           _mock.primary.branding
         )
 
@@ -80,4 +77,4 @@ export const NoTitle = () => ({
 
 DefaultSlice.storyName = 'Default'
 
-NoTitle.storyName = 'No title'
+withIcons.storyName = 'With icons'

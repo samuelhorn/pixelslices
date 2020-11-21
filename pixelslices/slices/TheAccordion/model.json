@@ -1,0 +1,54 @@
+{
+  "id": "the_accordion",
+  "type": "SharedSlice",
+  "name": "TheAccordion",
+  "description": "TheAccordion",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TheAccordion",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          },
+          "type": "StructuredText"
+        },
+        "appearance": {
+          "config": {
+            "label": "Appearance",
+            "placeholder": "",
+            "options": ["theme", "primary", "secondary"]
+          },
+          "type": "Select"
+        }
+      },
+      "items": {
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading3"
+          },
+          "type": "StructuredText"
+        },
+        "text": {
+          "config": {
+            "label": "Text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        }
+      }
+    }
+  ]
+}

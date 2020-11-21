@@ -2,7 +2,7 @@ import { withKnobs, select } from '@storybook/addon-knobs'
 import cloneDeep from 'lodash/cloneDeep'
 import SliceZone from 'vue-slicezone'
 import model from './model'
-import mocks from './mocks.json'
+import mocks from './customMocks.json'
 import Slice from './'
 
 export default {
@@ -21,8 +21,8 @@ export const DefaultSlice = () => ({
         const _mock = cloneDeep(mocks[0])
 
         _mock.primary.align = select(
-          'Alignement?',
-          ['left', 'center', 'right'],
+          'Alignement',
+          ['center', 'full', 'left', 'right'],
           _mock.primary.align
         )
 

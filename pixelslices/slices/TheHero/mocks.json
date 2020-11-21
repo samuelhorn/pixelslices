@@ -10,22 +10,30 @@
       "title": [
         {
           "type": "heading1",
-          "text": "maximize seamless technologies",
+          "text": "deliver out-of-the-box vortals",
           "spans": []
         }
       ],
-      "ctaLink": { "link_type": "Web", "url": "https://slicemachine.dev" },
-      "ctaText": "A text of type \"CTA text\" that conveys Click me",
-      "branding": "secondary",
-      "image": {
-        "dimensions": { "width": 2000, "height": 1400 },
-        "alt": "Placeholder image",
-        "copyright": null,
-        "url": "https://images.prismic.io/important-sm-images/4b7f2693-f585-4740-9980-3656c4c72dec_JXow53j6AtE.jpg?w=2000&h=1400"
-      },
-      "alignment": "left"
+      "branding": "brand secondary",
+      "alignment": "right"
     },
-    "items": [],
+    "items": [
+      {
+        "link": { "link_type": "Web", "url": "https://slicemachine.dev" },
+        "buttonText": "A text of type \"CTA text\" that conveys ",
+        "branding": "primary"
+      },
+      {
+        "link": { "link_type": "Web", "url": "https://slicemachine.dev" },
+        "buttonText": "A text of type \"CTA text\" that conveys ",
+        "branding": "primary"
+      },
+      {
+        "link": { "link_type": "Web", "url": "https://slicemachine.dev" },
+        "buttonText": "A text of type \"CTA text\" that conveys ",
+        "branding": "secondary"
+      }
+    ],
     "slice_type": "the_hero"
   }
 ]

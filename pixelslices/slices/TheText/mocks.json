@@ -1,20 +1,40 @@
-[{
-  "id": "default-slice",
-  "name": "Default slice",
-  "docURL": "...",
-  "version": "sktwi1xtmkfgx8626",
-  "description": "TheText",
-  "primary": {
-    "title": [{
-      "type": "heading1",
-      "text": "This is where it all begins...",
-      "spans": []
-    }],
-    "description": [{
-      "type": "paragraph",
-      "text": "start by editing this slice from inside the SliceMachine builder!",
-      "spans": []
-    }]
-  },
-  "slice_type": "the_text"
-}]
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "TheText",
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "monetize frictionless supply-chains",
+          "spans": []
+        }
+      ],
+      "columns": "2"
+    },
+    "items": [
+      {
+        "column": [
+          {
+            "type": "heading2",
+            "text": "aggregate user-centric web-readiness",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "column": [
+          {
+            "type": "heading2",
+            "text": "cultivate dot-com portals",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "slice_type": "the_text"
+  }
+]

@@ -14,8 +14,8 @@
         }
       ],
       "navigation": true,
-      "branding": "primary",
-      "background": true
+      "branding": "theme",
+      "appearance": "images"
     },
     "items": [
       {
@@ -31,6 +31,10 @@
           "alt": "Placeholder image",
           "copyright": null,
           "url": "https://source.unsplash.com/qJDkJRTedNw/600x400"
+        },
+        "link": {
+          "link_type": "Web",
+          "url": "https://pxlsls-demo.samuelhorn.com"
         }
       },
       {
@@ -46,6 +50,10 @@
           "alt": "Placeholder image",
           "copyright": null,
           "url": "https://source.unsplash.com/Q81AduLKMMc/600x400"
+        },
+        "link": {
+          "link_type": "Web",
+          "url": "https://pxlsls-demo.samuelhorn.com"
         }
       },
       {
@@ -61,6 +69,10 @@
           "alt": "Placeholder image",
           "copyright": null,
           "url": "https://source.unsplash.com/ihDcta7Kvqg/600x400"
+        },
+        "link": {
+          "link_type": "Web",
+          "url": "https://pxlsls-demo.samuelhorn.com"
         }
       },
       {
@@ -76,13 +88,17 @@
           "alt": "Placeholder image",
           "copyright": null,
           "url": "https://source.unsplash.com/zj475haUy2M/600x400"
+        },
+        "link": {
+          "link_type": "Web",
+          "url": "https://pxlsls-demo.samuelhorn.com"
         }
       },
       {
         "title": [
           {
             "type": "heading3",
-            "text": "The Pages",
+            "text": "The Accordion",
             "spans": []
           }
         ],
@@ -90,7 +106,30 @@
           "dimensions": { "width": 600, "height": 400 },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://source.unsplash.com/6hVbn-iMrdA/600x400"
+          "url": "https://source.unsplash.com/5Fxuo7x-eyg/600x400"
+        },
+        "link": {
+          "link_type": "Web",
+          "url": "https://pxlsls-demo.samuelhorn.com"
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "heading3",
+            "text": "The Form",
+            "spans": []
+          }
+        ],
+        "image": {
+          "dimensions": { "width": 600, "height": 400 },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://source.unsplash.com/WHUDOzd5IYU/600x400"
+        },
+        "link": {
+          "link_type": "Web",
+          "url": "https://pxlsls-demo.samuelhorn.com"
         }
       }
     ],

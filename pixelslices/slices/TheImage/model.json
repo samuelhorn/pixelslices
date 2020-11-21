@@ -15,8 +15,8 @@
           "config": {
             "label": "Image",
             "constraint": {
-              "width": 2000,
-              "height": 1400
+              "width": 1600,
+              "height": 800
             },
             "thumbnails": []
           },
@@ -33,10 +33,15 @@
         },
         "align": {
           "config": {
-            "label": "Alignement?",
+            "label": "Alignement",
             "placeholder": "",
-            "default_value": "left",
-            "options": ["left", "center", "right"]
+            "default_value": "center",
+            "options": [
+              "center",
+              "full",
+              "left",
+              "right"
+            ]
           },
           "type": "Select"
         }

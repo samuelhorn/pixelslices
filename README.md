@@ -2,7 +2,7 @@
 
 # Pixelslices
 
-A neat slice library for [Slicemachine](https://www.slicemachine.dev/) by [Prismic](https://prismic.io/).
+A neat slice library for [Slicemachine](https://www.slicemachine.dev/) by [Prismic](https://prismic.io/). Consisting of 6 slices and 2 partials for header and footer.
 
 ## Storybook & Demo
 

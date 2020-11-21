@@ -1,0 +1,70 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "TheAccorrdion",
+    "primary": {
+      "title": [
+        {
+          "type": "heading2",
+          "text": "Yummy ingredients makes all the difference",
+          "spans": []
+        }
+      ],
+      "appearance": "primary"
+    },
+    "items": [
+      {
+        "title": [
+          {
+            "type": "heading3",
+            "text": "Supports light and dark mode",
+            "spans": []
+          }
+        ],
+        "text": [
+          {
+            "type": "heading4",
+            "text": "All slices and partials support light and dark mode, using @nuxtjs/color-mode & Tailwind css.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "title": [
+          {
+            "type": "heading3",
+            "text": "Customizable color themes",
+            "spans": []
+          }
+        ],
+        "text": [
+          {
+            "type": "heading4",
+            "text": "Change all the default colors with in a couple of lines of code in tailwind.css.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "title": [
+          {
+            "type": "heading3",
+            "text": "Works with Netlify forms",
+            "spans": []
+          }
+        ],
+        "text": [
+          {
+            "type": "heading4",
+            "text": "The form slice has a simple form builder with any number of fields that works with Netlify Forms out of the box.",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "slice_type": "the_accordion"
+  }
+]

@@ -1,1 +1,40 @@
-[{"id":"default-slice","name":"Default slice","docURL":"...","version":"sktwi1xtmkfgx8897","description":"TheSlider","primary":{"title":[{"type":"heading2","text":"iterate sticky technologies","spans":[]}],"navigation":false,"branding":"primary","background":false},"items":[{"title":[{"type":"heading3","text":"evolve B2B platforms","spans":[]}],"image":{"dimensions":{"width":600,"height":400},"alt":"Placeholder image","copyright":null,"url":"https://images.prismic.io/important-sm-images/0ade35fa-6281-4c99-9490-351b798227d8_c8PWkB1JbMI.jpg?w=600&h=400"}},{"title":[{"type":"heading3","text":"envisioneer cross-platform metrics","spans":[]}],"image":{"dimensions":{"width":600,"height":400},"alt":"Placeholder image","copyright":null,"url":"https://images.prismic.io/important-sm-images/15fd0037-cfff-4efa-a7a0-cbb9fafd5753_-VKgcOWML4k.jpg?w=600&h=400"}},{"title":[{"type":"heading3","text":"reinvent collaborative relationships","spans":[]}],"image":{"dimensions":{"width":600,"height":400},"alt":"Placeholder image","copyright":null,"url":"https://images.prismic.io/important-sm-images/15fd0037-cfff-4efa-a7a0-cbb9fafd5753_-VKgcOWML4k.jpg?w=600&h=400"}},{"title":[{"type":"heading3","text":"empower turn-key ROI","spans":[]}],"image":{"dimensions":{"width":600,"height":400},"alt":"Placeholder image","copyright":null,"url":"https://images.prismic.io/important-sm-images/f4e07b66-b898-45ad-a6b8-b4e691c24735_j0l_J0YGXdo.jpg?w=600&h=400"}},{"title":[{"type":"heading3","text":"redefine sticky metrics","spans":[]}],"image":{"dimensions":{"width":600,"height":400},"alt":"Placeholder image","copyright":null,"url":"https://images.prismic.io/important-sm-images/2df10730-6c0d-43fc-8a41-2f457d6b561f_KDxa0jt2UyI.jpg?w=600&h=400"}},{"title":[{"type":"heading3","text":"matrix global solutions","spans":[]}],"image":{"dimensions":{"width":600,"height":400},"alt":"Placeholder image","copyright":null,"url":"https://images.prismic.io/important-sm-images/0e665171-82db-4865-9305-d0885a35db49_eFNybOZupwc.jpg?w=600&h=400"}}],"slice_type":"the_slider"}]
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8897",
+    "description": "TheSlider",
+    "primary": {
+      "title": [
+        {
+          "type": "heading2",
+          "text": "exploit bricks-and-clicks content",
+          "spans": []
+        }
+      ],
+      "navigation": false,
+      "branding": "secondary",
+      "appearance": "icons"
+    },
+    "items": [
+      {
+        "title": [
+          {
+            "type": "heading3",
+            "text": "enhance extensible solutions",
+            "spans": []
+          }
+        ],
+        "image": {
+          "dimensions": { "width": 600, "height": 400 },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/dec29fb6-148b-4715-9f71-30b5cea3fcec_pXEskkt0tpg.jpg?w=600&h=400"
+        },
+        "link": { "link_type": "Web", "url": "https://slicemachine.dev" }
+      }
+    ],
+    "slice_type": "the_slider"
+  }
+]

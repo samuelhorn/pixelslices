@@ -1,22 +1,24 @@
+import { withKnobs, text } from '@storybook/addon-knobs'
+import cloneDeep from 'lodash/cloneDeep'
 import TheHeader from './TheHeader.vue'
 import mocks from './mocks.json'
 
 export default {
   title: 'Partials/TheHeader',
+  decorators: [withKnobs],
 }
 
 export const Default = () => ({
-  // mounted() {
-  //   this.$colorMode.preference = select(
-  //     'Theme',
-  //     ['light', 'dark'],
-  //     this.$colorMode.value
-  //   )
-  // },
   components: { TheHeader },
   props: {
     mock: {
-      default: mocks,
+      default: (() => {
+        const _mock = cloneDeep(mocks)
+
+        _mock.logo_text = text('Site name', 'Pixelslices')
+
+        return _mock
+      })(),
     },
   },
   template:

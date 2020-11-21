@@ -1,10 +1,10 @@
 <template>
   <button
-    class="bg-theme-alt-3 w-16 px-1 h-10 rounded-full focus:outline-none transition-colors duration-200"
+    class="bg-theme w-16 px-1 h-10 rounded-full focus:outline-none transition-colors duration-200"
     @click="switchEnv"
   >
     <div
-      class="w-8 h-8 bg-theme rounded-full relative transform text-text shadow-sm transition-all duration-200"
+      class="w-8 h-8 bg-theme-tint rounded-full relative transform text-contrast shadow-sm transition-all duration-200"
       :class="$colorMode.value === 'light' ? 'translate-x-0' : 'translate-x-6'"
     >
       <transition-group

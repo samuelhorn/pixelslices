@@ -1,0 +1,138 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8897",
+    "description": "TheSlider",
+    "primary": {
+      "title": [
+        {
+          "type": "heading2",
+          "text": "Browse the menu",
+          "spans": []
+        }
+      ],
+      "navigation": true,
+      "branding": "theme",
+      "appearance": "icons"
+    },
+    "items": [
+      {
+        "title": [
+          {
+            "type": "heading3",
+            "text": "The Hero",
+            "spans": []
+          }
+        ],
+        "image": {
+          "dimensions": { "width": 600, "height": 400 },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://prismic-io.s3.amazonaws.com/pixelslices/07be82bc-d3e1-4e87-af97-2a860e673e2f_hero.svg"
+        },
+        "link": {
+          "link_type": "Web",
+          "url": "https://pxlsls-demo.samuelhorn.com"
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "heading3",
+            "text": "The Slider",
+            "spans": []
+          }
+        ],
+        "image": {
+          "dimensions": { "width": 600, "height": 400 },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://prismic-io.s3.amazonaws.com/pixelslices/e435c17e-d066-48d0-b9bc-f8c4b24cdfed_slider.svg"
+        },
+        "link": {
+          "link_type": "Web",
+          "url": "https://pxlsls-demo.samuelhorn.com"
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "heading3",
+            "text": "The Image",
+            "spans": []
+          }
+        ],
+        "image": {
+          "dimensions": { "width": 600, "height": 400 },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://prismic-io.s3.amazonaws.com/pixelslices/aff9463f-0fe4-4d9d-9cbc-f5b4e63de18b_camera.svg"
+        },
+        "link": {
+          "link_type": "Web",
+          "url": "https://pxlsls-demo.samuelhorn.com"
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "heading3",
+            "text": "The Text",
+            "spans": []
+          }
+        ],
+        "image": {
+          "dimensions": { "width": 600, "height": 400 },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://prismic-io.s3.amazonaws.com/pixelslices/173a0e02-74f4-4daa-b53a-e85463627e78_text.svg"
+        },
+        "link": {
+          "link_type": "Web",
+          "url": "https://pxlsls-demo.samuelhorn.com"
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "heading3",
+            "text": "The Accordion",
+            "spans": []
+          }
+        ],
+        "image": {
+          "dimensions": { "width": 600, "height": 400 },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://prismic-io.s3.amazonaws.com/pixelslices/8a190a30-72ad-4404-ad88-1f6844f5fc24_accordion.svg"
+        },
+        "link": {
+          "link_type": "Web",
+          "url": "https://pxlsls-demo.samuelhorn.com"
+        }
+      },
+      {
+        "title": [
+          {
+            "type": "heading3",
+            "text": "The Form",
+            "spans": []
+          }
+        ],
+        "image": {
+          "dimensions": { "width": 600, "height": 400 },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://prismic-io.s3.amazonaws.com/pixelslices/7208e870-7ffb-4f7d-8233-ef74964ff7ee_form.svg"
+        },
+        "link": {
+          "link_type": "Web",
+          "url": "https://pxlsls-demo.samuelhorn.com"
+        }
+      }
+    ],
+    "slice_type": "the_slider"
+  }
+]

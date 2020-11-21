@@ -9,7 +9,7 @@
         :field="partials.logo_image"
         class="mr-4 h-8 md:h-12 w-auto"
       />
-      <span class="text-text text-lg md:text-xl font-display uppercase">{{
+      <span class="text-contrast text-2xl md:text-3xl font-display uppercase">{{
         partials.logo_text
       }}</span>
     </nuxt-link>
@@ -51,7 +51,11 @@ export default {
 }
 
 .headroom--top {
-  @apply bg-theme;
+  @apply bg-transparent;
   backdrop-filter: blur(0);
+}
+
+.sb-show-main .headroom--top {
+  @apply bg-theme-tint;
 }
 </style>

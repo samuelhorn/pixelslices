@@ -1,30 +1,34 @@
 <!-- HEALTH:UNKNOWN header-burger -->
 <template>
-  <section class="bg-theme-alt">
-    <div class="relative py-24 lg:py-40">
-      <div class="container relative z-10 flex" :class="textAlignment">
+  <section class="bg-theme-tint">
+    <div
+      class="relative py-48 lg:py-64 -mt-24 -mb-32 lg:-mt-32 md:-mb-48 lg:-mb-64"
+    >
+      <div class="container relative z-10 flex" :class="alignment">
         <div class="max-w-md md:max-w-3xl">
           <span
-            class="font-display uppercase text-md md:text-lg mb-4 inline-block tracking-wider"
-            :class="branding === 'primary' ? 'text-primary' : 'text-secondary'"
+            class="font-display uppercase text-xl md:text-2xl mb-4 inline-block tracking-wider text-contrast"
           >
             {{ slice.primary.preTitle }}
           </span>
           <prismic-rich-text
             :field="slice.primary.title"
-            class="text-4xl md:text-6xl text-text mb-12 font-display uppercase"
+            class="text-5xl sm:text-6xl md:text-8xl mb-4 md:mb-8 font-display uppercase"
+            :class="textColor"
           />
-          <MultiButton :link="slice.primary.ctaLink" :color="branding">
-            {{ slice.primary.ctaText }}
-          </MultiButton>
+          <nav>
+            <MultiButton
+              v-for="(item, index) in slice.items"
+              :key="index"
+              :link="item.link"
+              :color="item.branding"
+              class="mt-4"
+              :class="alignmentButtons"
+            >
+              {{ item.buttonText }}
+            </MultiButton>
+          </nav>
         </div>
-      </div>
-      <div class="absolute top-0 bottom-0" :class="imageAlignment">
-        <div class="absolute inset-0" :class="tintAlignment" />
-        <prismic-image
-          :field="slice.primary.image"
-          class="h-full w-full object-cover md:object-left"
-        />
       </div>
     </div>
   </section>
@@ -45,31 +49,33 @@ export default {
     branding() {
       return this.slice.primary.branding
     },
-    textAlignment() {
+    alignment() {
       if (this.slice.primary.alignment === 'left') {
-        return 'justify-start'
+        return 'justify-start text-left'
       } else if (this.slice.primary.alignment === 'right') {
-        return 'justify-end'
+        return 'justify-end text-right'
       } else {
         return 'justify-center text-center'
       }
     },
-    imageAlignment() {
+    alignmentButtons() {
       if (this.slice.primary.alignment === 'left') {
-        return 'right-0 md:w-2/3'
+        return 'mr-2'
       } else if (this.slice.primary.alignment === 'right') {
-        return 'left-0 md:w-2/3'
+        return 'ml-2'
       } else {
-        return 'inset-0'
+        return 'mx-2'
       }
     },
-    tintAlignment() {
-      if (this.slice.primary.alignment === 'left') {
-        return 'bg-theme opacity-50 md:opacity-100 md:bg-transparent md:bg-gradient-to-r md:right-auto from-theme-alt to-transparent md:w-3/4'
-      } else if (this.slice.primary.alignment === 'right') {
-        return 'bg-theme opacity-50 md:opacity-100 md:bg-transparent md:bg-gradient-to-l md:left-auto from-theme-alt to-transparent md:w-3/4'
+    textColor() {
+      if (this.slice.primary.branding === 'theme') {
+        return 'text-contrast'
+      } else if (this.slice.primary.branding === 'primary') {
+        return 'text-primary'
+      } else if (this.slice.primary.branding === 'secondary') {
+        return 'text-secondary'
       } else {
-        return 'bg-theme opacity-50'
+        return 'bg-gradient-to-b from-primary to-secondary bg-clip-text text-transparent'
       }
     },
   },

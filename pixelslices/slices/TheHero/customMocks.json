@@ -14,18 +14,21 @@
           "spans": []
         }
       ],
-      "ctaLink": { "link_type": "Web", "url": "https://slicemachine.dev" },
-      "ctaText": "I'm hungry!",
-      "branding": "primary",
-      "image": {
-        "dimensions": { "width": 2000, "height": 1400 },
-        "alt": "Placeholder image",
-        "copyright": null,
-        "url": "https://source.unsplash.com/bsZ-dG3ZMMo/2000x1400"
-      },
-      "alignment": "left"
+      "branding": "theme",
+      "alignment": "center"
     },
-    "items": [],
+    "items": [
+      {
+        "link": { "link_type": "Web", "url": "https://slicemachine.dev" },
+        "buttonText": "The menu",
+        "branding": "primary"
+      },
+      {
+        "link": { "link_type": "Web", "url": "https://slicemachine.dev" },
+        "buttonText": "Get the slices",
+        "branding": "secondary"
+      }
+    ],
     "slice_type": "the_hero"
   }
 ]

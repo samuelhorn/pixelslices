@@ -1,17 +1,10 @@
 <template>
-  <section
-    class="overflow-hidden bg-theme py-10 md:py-24 lg:py-32"
-    :class="{ 'bg-theme-alt': backgroundTint }"
-  >
+  <section class="overflow-hidden my-16 md:my-24 lg:my-32">
+    {{ slice.mode }}
     <div class="container">
-      <prismic-rich-text
-        :field="slice.primary.title"
-        class="text-md md:text-lg tracking-wider mb-4 md:mb-6 font-display uppercase leading-tight"
-        :class="'text-' + branding"
-      />
+      <prismic-rich-text :field="slice.primary.title" class="slice-heading" />
       <div
         v-swiper:mySwiper="swiperOption"
-        class="mb-10"
         style="overflow: visible !important"
       >
         <div class="swiper-wrapper">
@@ -19,6 +12,7 @@
             v-for="(item, index) in slice.items"
             :key="index"
             :item="item"
+            :appearance="slice.primary.appearance"
           />
         </div>
         <div
@@ -77,10 +71,11 @@ export default {
       return this.slice.primary.navigation
     },
     branding() {
-      return this.slice.primary.branding
-    },
-    backgroundTint() {
-      return this.slice.primary.background
+      if (this.slice.primary.branding === 'theme') {
+        return 'text'
+      } else {
+        return this.slice.primary.branding
+      }
     },
   },
 }
@@ -123,6 +118,10 @@ export default {
 
 .dots-secondary .swiper-pagination-bullet {
   @apply bg-secondary;
+}
+
+.dots-text .swiper-pagination-bullet {
+  @apply bg-contrast;
 }
 
 .swiper-pagination-bullet-active {

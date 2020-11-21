@@ -10,6 +10,7 @@ export default {
   decorators: [withKnobs],
 }
 
+// TODO: Update to loop over mocks.json
 export const DefaultSlice = () => ({
   components: {
     Slice,
@@ -20,42 +21,10 @@ export const DefaultSlice = () => ({
       default: (() => {
         const _mock = cloneDeep(mocks[0])
 
-        _mock.primary.columns = select(
-          'Columns',
-          ['1', '2', '3'],
-          _mock.primary.columns
-        )
-
-        return _mock
-      })(),
-    },
-  },
-  data() {
-    return {
-      resolver() {
-        return Slice
-      },
-    }
-  },
-  template: '<slice-zone :slices="[ mock ]" :resolver="resolver" />',
-})
-
-export const WithColumns = () => ({
-  components: {
-    Slice,
-    SliceZone,
-  },
-  props: {
-    mock: {
-      default: (() => {
-        const _mock = cloneDeep(mocks[0])
-
-        _mock.primary.columns = '3'
-
-        _mock.primary.columns = select(
-          'Columns',
-          ['1', '2', '3'],
-          _mock.primary.columns
+        _mock.primary.appearance = select(
+          'Branding',
+          ['primary', 'secondary'],
+          _mock.primary.appearance
         )
 
         return _mock
@@ -73,4 +42,3 @@ export const WithColumns = () => ({
 })
 
 DefaultSlice.storyName = 'Default'
-WithColumns.storyName = 'With columns'

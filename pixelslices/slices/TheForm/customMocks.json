@@ -1,0 +1,42 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "TheForm",
+    "primary": {
+      "title": [
+        {
+          "type": "heading2",
+          "text": "Want to get updates on this library?",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "This slice is a simple form builder which is hooked up to Netlify forms out of the box. You can add all types of text inputs.",
+          "spans": []
+        }
+      ],
+      "appearance": "primary",
+      "name": "Testform"
+    },
+    "items": [
+      {
+        "label": "Name",
+        "name": "name",
+        "type": "text",
+        "placeholder": "John Doe"
+      },
+      {
+        "label": "E-mail",
+        "name": "email",
+        "type": "email",
+        "placeholder": "slice@pizza.slc"
+      }
+    ],
+    "slice_type": "the_form"
+  }
+]
