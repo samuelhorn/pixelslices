@@ -5,7 +5,7 @@
       :field="slice.primary.description"
       class="mb-12 opacity-60"
     />
-    <form :name="slice.primary.name" method="POST" data-netlify="true">
+    <form method="POST" data-netlify="true">
       <label
         v-for="(item, index) in slice.items"
         :key="'field-' + index"
@@ -30,6 +30,7 @@
           Send
         </MultiButton>
       </footer>
+      <input type="hidden" name="form-name" :value="slice.primary.name" />
     </form>
   </section>
 </template>
