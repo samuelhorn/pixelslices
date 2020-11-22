@@ -7,7 +7,11 @@
     "description": "TheText",
     "primary": {
       "title": [
-        { "type": "heading2", "text": "matrix integrated portals", "spans": [] }
+        {
+          "type": "heading2",
+          "text": "This is a rich text block, it could be in one, two or three columns",
+          "spans": []
+        }
       ],
       "columns": "1"
     },
