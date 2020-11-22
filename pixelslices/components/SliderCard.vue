@@ -15,7 +15,11 @@
       v-if="item.link"
       :field="item.link"
       class="flex items-center justify-between py-6 px-8"
-      :class="contentAppearance"
+      :class="
+        appearance === 'images'
+          ? 'absolute z-10 right-0 bottom-0 left-0 text-white'
+          : 'relative text-contrast'
+      "
     >
       <prismic-rich-text
         :field="item.title"
