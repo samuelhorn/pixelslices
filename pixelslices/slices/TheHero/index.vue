@@ -16,12 +16,13 @@
             class="text-5xl sm:text-6xl md:text-8xl mb-4 md:mb-8 font-display uppercase"
             :class="textColor"
           />
-          <nav class="mt-12">
+          <nav class="mt-8">
             <MultiButton
               v-for="(item, index) in slice.items"
               :key="index"
               :link="item.link"
               :color="item.branding"
+              class="inline-block my-2"
               :class="alignmentButtons"
             >
               {{ item.buttonText }}
