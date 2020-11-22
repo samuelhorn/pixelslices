@@ -4,6 +4,9 @@
 
 A neat slice library for [Slicemachine](https://www.slicemachine.dev/) by [Prismic](https://prismic.io/). Consisting of 6 slices and 2 partials for header and footer.
 
+**A note on color mode:**
+_To change between light and dark mode in the Storybook you have to push the switch in the header partail. I have not found a way to connect Storybook's knobs to @nuxtjs/color-mode, I will try to make it possible to switch on every slice in the future._
+
 ## Partials
 
 ### The Header
@@ -42,7 +45,7 @@ A slice for rich text with the ability to use one, two or three columns.
 
 ## Storybook & Demo
 
-[Storybook](https://pxlsls-story.samuelhorn.com) [![Netlify Status](https://api.netlify.com/api/v1/badges/f6ce1400-93dc-4cea-9793-fd275b4cda00/deploy-status)](https://app.netlify.com/sites/pxlsls-story/deploys)
+[Storybook](https://pxlsls-story.samuelhorn.com) [![Netlify Status](https://api.netlify.com/api/v1/badges/5e4bbc91-0ff2-4342-82e4-38d43fa4e4af/deploy-status)](https://app.netlify.com/sites/pxlsls-story/deploys)
 
 [Demo](https://pxlsls-demo.samuelhorn.com) [![Netlify Status](https://api.netlify.com/api/v1/badges/da3d6cf3-4571-4e26-9a24-fde92f63e86e/deploy-status)](https://app.netlify.com/sites/pxlsls-demo/deploys)
 
