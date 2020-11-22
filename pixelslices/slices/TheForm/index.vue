@@ -3,7 +3,7 @@
     <prismic-rich-text :field="slice.primary.title" class="slice-heading" />
     <prismic-rich-text
       :field="slice.primary.description"
-      class="mb-12 opacity-60"
+      class="mb-12 opacity-75"
     />
     <form method="POST" data-netlify="true">
       <label
@@ -25,11 +25,11 @@
           :type="item.type"
           :placeholder="item.placeholder"
           :name="item.name"
-          class="w-full bg-theme-tint rounded-3xl py-4 p-6 md:py-6 focus:outline-none focus:ring-2"
+          class="w-full bg-theme-tint rounded-3xl py-4 p-6 md:py-6 focus:outline-none"
           :class="
             slice.primary.appearance === 'primary'
-              ? 'focus:ring-primary'
-              : 'focus:ring-secondary'
+              ? 'focus:shadow-focus-primary'
+              : 'focus:shadow-focus-secondary'
           "
         />
       </label>

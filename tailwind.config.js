@@ -36,6 +36,7 @@ module.exports = {
     },
     extend: {
       spacing: {
+        0.5: '0.125rem',
         128: '32rem',
       },
       boxShadow: {
@@ -45,6 +46,8 @@ module.exports = {
         'glow-secondary': '0 0 20px rgba(255,132,94,.5)',
         'glow-primary-intense': '0 0 30px 10px rgba(123,97,255,.5)',
         'glow-secondary-intense': '0 0 30px 10px rgba(255,132,94,.5)',
+        'focus-primary': '0 0 0 3px rgba(123,97,255,1)',
+        'focus-secondary': '0 0 0 3px rgba(255,132,94,1)',
       },
     },
   },

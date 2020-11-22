@@ -71,6 +71,6 @@ export default {
 }
 
 .slice-text >>> p {
-  @apply my-6 leading-relaxed opacity-60;
+  @apply my-6 leading-relaxed opacity-75;
 }
 </style>

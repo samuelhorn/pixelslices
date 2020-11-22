@@ -28,7 +28,19 @@ body {
 
 @layer components {
   .slice-heading {
-    @apply text-3xl md:text-4xl lg:text-5xl tracking-wider mb-8 md:mb-12 font-display uppercase max-w-xl mx-auto text-center;
+    @apply text-3xl tracking-wider mb-8 font-display uppercase max-w-xl mx-auto text-center;
+  }
+
+  @screen md {
+    .slice-heading {
+      @apply text-4xl mb-12;
+    }
+  }
+
+  @screen lg {
+    .slice-heading {
+      @apply text-5xl;
+    }
   }
 }
 

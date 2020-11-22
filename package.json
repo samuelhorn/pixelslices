@@ -34,7 +34,7 @@
     "@nuxtjs/pwa": "^3.2.2",
     "@nuxtjs/storybook": "2.2.2",
     "@nuxtjs/svg": "^0.1.12",
-    "@nuxtjs/tailwindcss": "^3.2.0",
+    "@nuxtjs/tailwindcss": "^2.1.0",
     "@storybook/addon-knobs": "^6.0.28",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.5.0",
@@ -44,7 +44,6 @@
     "node-sass": "^4.14.1",
     "prettier": "^2.0.5",
     "sass-loader": "^10.0.4",
-    "slice-machine-ui": "^0.0.38",
-    "tailwindcss": "^2.0.1-compat"
+    "slice-machine-ui": "^0.0.38"
   }
 }
