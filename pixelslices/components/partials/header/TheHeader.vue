@@ -13,7 +13,9 @@
         partials.logo_text
       }}</span>
     </nuxt-link>
-    <ThemeSwitch v-if="$colorMode" />
+    <client-only>
+      <ThemeSwitch v-if="$colorMode" />
+    </client-only>
   </header>
 </template>
 
