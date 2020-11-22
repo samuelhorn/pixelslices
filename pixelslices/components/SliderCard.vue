@@ -3,7 +3,14 @@
     class="swiper-slide rounded-3xl overflow-hidden relative"
     :class="appearance === 'icons' ? 'bg-theme-tint' : 'shadow-smooth'"
   >
-    <prismic-image :field="item.image" :class="imageAppearance" />
+    <prismic-image
+      :field="item.image"
+      :class="
+        appearance === 'images'
+          ? 'h-48 lg:h-64 object-cover w-full'
+          : 'h-16 w-16 mt-6 ml-8 lg:h-20 lg:w-20 xl:h-24 xl:w-24'
+      "
+    />
     <prismic-link
       v-if="item.link"
       :field="item.link"
@@ -20,7 +27,11 @@
       v-else
       :field="item.title"
       class="text-xl lg:text-xl font-display uppercase py-6 px-8"
-      :class="contentAppearance"
+      :class="
+        appearance === 'images'
+          ? 'absolute z-10 right-0 bottom-0 left-0 text-white'
+          : 'relative text-contrast'
+      "
     />
     <div
       v-if="appearance === 'images'"
@@ -44,22 +55,6 @@ export default {
     appearance: {
       type: String,
       default: 'images',
-    },
-  },
-  computed: {
-    imageAppearance() {
-      if (this.appearance === 'images') {
-        return 'h-48 lg:h-64 object-cover w-full'
-      } else {
-        return 'h-16 w-16 mt-6 ml-8 lg:h-20 lg:w-20 xl:h-24 xl:w-24'
-      }
-    },
-    contentAppearance() {
-      if (this.appearance === 'images') {
-        return 'absolute z-10 right-0 bottom-0 left-0 text-white'
-      } else {
-        return 'relative text-contrast'
-      }
     },
   },
 }

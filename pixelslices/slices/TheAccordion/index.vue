@@ -5,7 +5,13 @@
       v-for="(item, index) in slice.items"
       :key="'accordion-' + index"
       class="rounded-3xl px-6 py-6 md:px-12 md:py-8 mb-4 md:mb-6 cursor-pointer"
-      :class="branding"
+      :class="
+        slice.primary.appearance === 'primary'
+          ? 'text-white bg-primary'
+          : slice.primary.appearance === 'secondary'
+          ? 'text-white bg-secondary'
+          : 'text-contrast bg-theme-tint'
+      "
       @click="toggleAccordion(index)"
     >
       <header class="pointer-events-none relative">
@@ -62,17 +68,6 @@ export default {
     return {
       active: null,
     }
-  },
-  computed: {
-    branding() {
-      if (this.slice.primary.appearance === 'primary') {
-        return 'text-white bg-primary'
-      } else if (this.slice.primary.appearance === 'secondary') {
-        return 'text-white bg-secondary'
-      } else {
-        return 'text-contrast bg-theme-tint'
-      }
-    },
   },
   methods: {
     toggleAccordion(item) {
