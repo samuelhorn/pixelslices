@@ -83,13 +83,13 @@ export default {
     '@nuxtjs/tailwindcss',
     '@nuxtjs/svg',
     '@nuxtjs/pwa',
+    '@nuxtjs/color-mode',
   ],
 
   /*
    ** Nuxt.js modules
    */
   modules: [
-    '@nuxtjs/color-mode',
     [
       '@nuxtjs/prismic',
       {
