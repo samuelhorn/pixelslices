@@ -28,6 +28,7 @@ module.exports = {
       contrast: 'var(--color-contrast)',
       transparent: 'transparent',
       white: '#FFFFFF',
+      black: '#000000',
     },
     fontFamily: {
       display: ['Bebas Neue', 'sans-serif'],
