@@ -62,7 +62,7 @@ module.exports = {
       'nuxt.config.js',
     ],
     options: {
-      safelist: ['bg-primary', 'bg-secondary'],
+      whitelist: ['bg-primary', 'bg-secondary'],
     },
   },
 }
