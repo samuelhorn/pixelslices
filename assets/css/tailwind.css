@@ -1,8 +1,9 @@
+/* purgecss start ignore */
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
+/* purgecss end ignore */
 @import 'tailwindcss/utilities';
 
-/* Colors */
 :root {
   --color-primary: #7b61ff;
   --color-secondary: #ff845e;
@@ -13,27 +14,24 @@
 }
 
 .dark-mode {
-  --color-primary: #7b61ff;
-  --color-secondary: #ff845e;
+  --color-brand-primary: #7b61ff;
+  --color-brand-secondary: #ff845e;
   --color-theme: #101315;
   --color-theme-tint: #1d2225;
   --color-theme-op: rgba(29, 34, 37, 0.8);
   --color-contrast: #ffffff;
 }
 
-/* Base */
 body {
   @apply bg-theme font-copy text-contrast;
 }
 
-/* Custom components */
 @layer components {
   .slice-heading {
     @apply text-3xl md:text-4xl lg:text-5xl tracking-wider mb-8 md:mb-12 font-display uppercase max-w-xl mx-auto text-center;
   }
 }
 
-/* Selection colors */
 ::-moz-selection {
   @apply text-white bg-primary;
 }

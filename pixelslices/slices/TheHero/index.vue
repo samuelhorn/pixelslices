@@ -16,13 +16,12 @@
             class="text-5xl sm:text-6xl md:text-8xl mb-4 md:mb-8 font-display uppercase"
             :class="textColor"
           />
-          <nav>
+          <nav class="mt-12">
             <MultiButton
               v-for="(item, index) in slice.items"
               :key="index"
               :link="item.link"
               :color="item.branding"
-              class="mt-4"
               :class="alignmentButtons"
             >
               {{ item.buttonText }}
@@ -46,9 +45,6 @@ export default {
     },
   },
   computed: {
-    branding() {
-      return this.slice.primary.branding
-    },
     alignment() {
       if (this.slice.primary.alignment === 'left') {
         return 'justify-start text-left'

@@ -19,6 +19,16 @@ module.exports = {
         '2xl': '10rem',
       },
     },
+    colors: {
+      primary: 'var(--color-primary)',
+      secondary: 'var(--color-secondary)',
+      theme: 'var(--color-theme)',
+      'theme-tint': 'var(--color-theme-tint)',
+      'theme-op': 'var(--color-theme-op)',
+      contrast: 'var(--color-contrast)',
+      transparent: 'transparent',
+      white: '#FFFFFF',
+    },
     fontFamily: {
       display: ['Bebas Neue', 'sans-serif'],
       copy: ['Roboto', 'sans-serif'],
@@ -26,15 +36,6 @@ module.exports = {
     extend: {
       spacing: {
         128: '32rem',
-      },
-      colors: {
-        primary: 'var(--color-primary)',
-        secondary: 'var(--color-secondary)',
-        theme: 'var(--color-theme)',
-        'theme-tint': 'var(--color-theme-tint)',
-        'theme-op': 'var(--color-theme-op)',
-        contrast: 'var(--color-contrast)',
-        transparent: 'transparent',
       },
       boxShadow: {
         smooth:

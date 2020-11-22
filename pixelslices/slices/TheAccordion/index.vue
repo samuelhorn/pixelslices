@@ -65,10 +65,12 @@ export default {
   },
   computed: {
     branding() {
-      if (this.slice.primary.appearance === 'theme') {
-        return 'text-contrast bg-theme-tint'
+      if (this.slice.primary.appearance === 'primary') {
+        return 'text-white bg-primary'
+      } else if (this.slice.primary.appearance === 'secondary') {
+        return 'text-white bg-secondary'
       } else {
-        return 'text-white bg-' + this.slice.primary.appearance
+        return 'text-contrast bg-theme-tint'
       }
     },
   },
